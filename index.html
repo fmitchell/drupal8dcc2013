@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Drupal 8 Update, For Everyone!</title>
+
+		<meta name="description" content="A story about discovery, trial and error, and having fun!">
+		<meta name="author" content="Fredric Mitchell">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/one-mozilla.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Drupal 8 Update, For Everyone!</h1>
+					<h3>Where are we?</h3>
+					<p>
+						<small>Created by <a href="http://brightplum.com">Fredric Mitchell</a> / <a href="http://twitter.com/fredricmitchell">@fredricmitchell</a></small>
+					</p>
+                    <p>
+                        <small>http://brightplumbox.com/drupal8dcc2013/</small>
+                    </p>
+				</section>
+
+                <section>
+                    <h2>What are we talking about?</h2>
+                    <ol>
+                        <li class="fragment">Release date</li>
+                        <li class="fragment">Release Cycle</li>
+                        <li class="fragment">LIVE Demo of Drupal 8 on simplytest.me</li>
+                        <li class="fragment">High-level overview of technical changes</li>
+                        <li class="fragment">How you can help</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Release Date</h2>
+                        <h3>When Can I Have It?</h3>
+                        <p>http://drupalreleasedate.com/</p>
+                        <blockquote class="fragment">&ldquo;When it's ready.&rdquo; - Crell</blockquote>
+                    </section>
+                    <section>
+                        <img src="https://dl-web.dropbox.com/get/Screenshots/Screenshot%202013-12-07%2010.55.15.png?w=AADjCvDSjBlx9DbberJC5nnUd8O7L99eC0BgRvnPCvFeCg" height="500px" />
+                    </section>
+                    <section>
+                        <img src="https://dl-web.dropbox.com/get/Screenshots/Screenshot%202013-12-07%2010.55.28.png?w=AAB2bjUodBSqxbkxdbJdLTfrdMuBvJMwnuSorRH-AjXcjg" height="500px" />
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Release Cycle</h2>
+                        <h3>How Can I See Where We Are?</h3>
+                        <p>https://drupal.org/core/release-cycle</p>
+                        <img src="https://dl-web.dropbox.com/get/Screenshots/Screenshot%202013-12-07%2011.04.55.png?w=AABN4W62d1m9bjG582CANGkm93XLqXLkEW2YPHz0ai39iA" height="500px" />
+                    </section>
+                    <section>
+                        <h2>What's Alpha Release?</h2>
+                        <p class="fragment">Aimed at developers to identify API weak points</p>
+                        <p class="fragment">Unstable and unreliable for client work</p>
+                        <p class="fragment">No upgrade path</p>
+                        <p class="fragment">Prepare for beta release</p>
+                    </section>
+                    <section>
+                        <h2>What's Beta Release?</h2>
+                        <p class="fragment">Developers should start porting modules</p>
+                        <p class="fragment">UI is <em>generally</em> locked down</p>
+                        <p class="fragment">Not production ready as data loss still possible</p>
+                        <p class="fragment">Prepare for Release Candidate</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Live Demo!</h2>
+                    <h3>Crosses fingers</h3>
+                    <p>http://simplytest.me/project/drupal</p>
+                </section>
+
+                <section>
+                    <h2>For Site Builders</h2>
+                    <h3>Some Highlights</h3>
+                    <p class="fragment">Simplified, yet powerful</p>
+                    <p class="fragment">Responsive administration</p>
+                    <p class="fragment">Views ALL THE THINGS</p>
+                    <p class="fragment">Block Types</p>
+                    <p class="fragment">CKEditor</p>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>For the Developers</h2>
+                        <h3>This isn't everything</h3>
+                        <p class="fragment">What to Expect: http://previousnext.com.au/blog/drupal-8-ready-whats-new-developers</p>
+                        <p class="fragment">Comprehensive: https://github.com/hechoendrupal/drupal8-links</p>
+                        <p class="fragment">PIE (Proudly Invented Elsewhere)</p>
+                    </section>
+                    <section>
+                        <h2>Basic OOP Assumption</h2>
+                        <p class="fragment">Classes, objects, inheritance</p>
+                        <p class="fragment">Namespaces</p>
+                        <p class="fragment">Design Patterns</p>
+                    </section>
+                    <section>
+                        <h2>Advanced OOP?</h2>
+                        <p class="fragment">PSR-0</p>
+                        <p class="fragment">Dependency Injection</p>
+                        <p class="fragment">Design Patterns</p>
+                    </section>
+                    <section>
+                        <h2>Composer</h2>
+                        <p>Package Management</p>
+                        <p>Packagist: http://packagist.org</p>
+                        <p>http://benramsey.com/blog/2013/11/the-fall-of-pear-and-the-rise-of-composer/</p>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Community</h2>
+                    <h3>My subjective opinion.</h3>
+                    <p class="fragment">Which should I use for my new project?</p>
+                    <p class="fragment">Do I HAVE to move?</p>
+                    <p class="fragment">How different is it?</p>
+                </section>
+
+				<section>
+					<h2>Questions?</h2>
+					<h3>By Fredric Mitchell / @fredricmitchell</h3>
+                    <p><strong>Slides:</strong> http://brightplumbox.com/30Drupal7API/</p>
+                    <p><strong>Slides Repo:</strong> https://github.com/fmitchell/30Drupal7API</p>
+                    <p><strong>Feedback:</strong> joind.in/talk/view/10311</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
